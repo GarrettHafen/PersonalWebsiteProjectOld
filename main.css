@@ -1,6 +1,31 @@
+nav {
+  height: 80px;
+  background-color: grey;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+.topTabs a {
+	display: inline-block;
+	padding: 8px 12px;
+	margin: 0 auto;
+	font-size: 34px;
+	font-weight: 400;
+	text-decoration: none;
+	border: 2px solid black;
+	color: black;
+}
+nav a:hover {
+	border-color: #999; /*needs new color*/
+	color: #777;
+}
+
 body{
 	text-align: center;
-	background-color: rgb(206, 89, 6)
+	background-color: rgb(206, 89, 6);
 	box-sizing: border-box;
 }
 .container{
@@ -22,6 +47,7 @@ img{
 	border: solid black;
 	border-width: 5px;
 	width: 1149px;
+	background-color: rgb(87, 153, 204);
 }
 
 .center{
