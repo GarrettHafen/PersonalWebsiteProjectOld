@@ -1,66 +1,114 @@
-nav {
-  height: 80px;
-  background-color: grey;
-  position: relative;
-  width: 100%;
-  text-align: left;
-  text-decoration: none;
-  vertical-align: middle;
-  margin: 0 auto;
-}
-.topTabs a {
-	display: inline-block;
-	padding: 8px 12px;
-	margin: 0 auto;
-	font-size: 34px;
-	font-weight: 400;
-	text-decoration: none;
-	border: 2px solid black;
-	color: black;
-}
-nav a:hover {
-	border-color: #999; /*needs new color*/
-	color: #777;
-}
-
 body{
-	text-align: center;
-	background-color: rgb(206, 89, 6);
+	background-color: #298eea;
+	font-family: 'Roboto', helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+
+}
+body *{
 	box-sizing: border-box;
 }
-.container{
-	border-width: 15px;
-	width: 1155px;
-	border: solid black;
-	padding: 20px;
-	margin: auto;
-}
-
-img{
-	height:648px;
-	width: 1152px;
-	border-width: 45px;
-	border: solid black;
-	padding-bottom: 0px;
-}
-.heading, .socialmedia, .youtube{
-	border: solid black;
-	border-width: 5px;
-	width: 1149px;
-	background-color: rgb(87, 153, 204);
-}
-
-.center{
-    width:400px;
-    margin:0 auto;
-    text-align:left;
-}
-.popup {
-	background: white;
-	display: none;
-	height: 100px;
-	width: 100px;
-}
-.youtube > h2:hover + .popup {
+.logo{
+	height: 35px;
 	display: block;
+	width: auto;
+	margin: 0 auto 30px;
 }
+.signup-form{
+	width: 400px;
+	padding: 40px;
+	border-radius: 3px;
+	background: white;
+	margin: 0 auto;
+}
+.signup-form legend{
+	text-align: center;
+	font-weight: 300;
+	color: #565656;
+	margin: 0 auto 45px;
+	font-size: 35px;
+	line-height: 38px;
+	letter-spacing: 0;
+}
+input[type='email'],
+input[type='password'],
+button[type='submit']{
+	background: #fcfcfc;
+	border: 2px solid #e7e7e7;
+	margin: 20px auto;
+	padding: 15px;
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+	font-size: 18px;
+	transition: opacity 0.4s;
+	text-align: left;
+	height: auto;
+}
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='submit']:focus {
+	border-color: #E7E7E7;
+	box-shadow: none;
+}
+button[type='submit'] {
+	color: white;
+	background: #15CD72;
+	border: 0;
+	font-weight: 500;
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 0;
+	height: auto;
+}
+button:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+} /*is this common!?! i never would have known this stuff existed??*/
+.signup-form p{
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+	color: #999;
+}
+.signup-form a{
+	text-decoration: none;
+	color: #999;
+	border-bottom: 1px solid #bbb;
+}
+.signup-form a:hover{
+	border-color: #999;
+	color: #777;
+}
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover { color: #E7F1F9 }
+
+.footer p { margin-bottom: 40px }
+
+/*
+  i committed but cant find it on github?
+  how do i know which repo im pointed at, need to delete all repos and start over with personal and class repos
+  
+  why is my personal website nav bar below the orange
+  how do i center something? might figure it out
+  <a href="/word" means another page in the file?
+  suggestions for a nice tab feel, websites to look at?
+  should i do it with a button?*/
