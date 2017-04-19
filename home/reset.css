@@ -1,0 +1,13 @@
+ul
+{
+    margin: 0;
+    /*padding:0;*/
+
+}
+
+
+
+
+/*whenever you have grey user agent stylesheet in chorme developer tools, might need a reset 
+h2{
+margin: 0 ;} etc*/
