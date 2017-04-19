@@ -1,4 +1,13 @@
-ul.topTabs{
+header{
+	margin: 0;
+}
+
+.homeButton{
+	height: 75px;
+	width: 75px;
+}
+
+ul.topTabs {
 	padding-top: 15px;
 }
 
@@ -24,9 +33,11 @@ nav {
 	border: 2px solid black;
 	color: black;
 }
+
 .tab {
 	background-color: #cc5414;
 }
+
 nav a:hover {
 	border-color: #999; /*needs new color*/
 	color: #777;
@@ -48,17 +59,17 @@ body{
 	margin-left: auto;
 }
 
-img{
+.mainLogo{
 	height:100%;
 	width: 100%;
 	border-width: 45px;
-	border: solid black;
+	border: 3px solid black;
 	padding-bottom: 0px;
 }
 .heading, .socialmedia, .youtube{
 	border: solid black;
-	border-width: 5px;
-	width: 1149px;
+	border-width: 3px;
+	width: 100%;
 	background-color: rgb(87, 153, 204);
 }
 
