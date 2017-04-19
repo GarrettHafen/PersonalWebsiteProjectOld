@@ -1,0 +1,78 @@
+ul.topTabs{
+	padding-top: 15px;
+}
+
+nav {
+  height: 80px;
+  background-color: grey;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.topTabs a {
+	display: inline-block;
+	padding: 8px 12px;
+	margin: 0 auto;
+	font-size: 34px;
+	font-weight: 400;
+	text-decoration: none;
+	border: 2px solid black;
+	color: black;
+}
+.tab {
+	background-color: #cc5414;
+}
+nav a:hover {
+	border-color: #999; /*needs new color*/
+	color: #777;
+}
+
+body{
+	text-align: center;
+	background-color: white;
+	box-sizing: border-box;
+	margin:0;
+}
+.container{
+	border-width: 15px;
+	width: 75%;
+	border: solid black;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img{
+	height:100%;
+	width: 100%;
+	border-width: 45px;
+	border: solid black;
+	padding-bottom: 0px;
+}
+.heading, .socialmedia, .youtube{
+	border: solid black;
+	border-width: 5px;
+	width: 1149px;
+	background-color: rgb(87, 153, 204);
+}
+
+.center{
+    width:400px;
+    margin:0 auto;
+    text-align:left;
+}
+.popup {
+	background: white;
+	display: none;
+	height: 100px;
+	width: 100px;
+}
+.youtube > h2:hover + .popup {
+	display: block;
+}
