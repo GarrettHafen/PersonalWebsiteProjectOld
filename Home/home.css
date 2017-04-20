@@ -50,39 +50,28 @@ body{
 	box-sizing: border-box;
 	margin:0;
 }
-.container{
-	border-width: 15px;
-	width: 75%;
-	border: solid black;
-	margin-right: auto;
-	margin-left: auto;
+.carousel{
+	justify-content: center;
+	align-items: center;
+}
+.specialVideos{
+	justify-content: center;
+	align-items: center;
+}
+.col-10{
+	border: 1px solid black;
+	height: 500px;
+	margin:0 auto;
+	margin-top: 30px;
 }
 
-.carousel {
-	height:100%;
-	width: 100%;
-	border-width: 45px;
-	border: 3px solid black;
-	padding-bottom: 0px;
-}
-.heading, .socialmedia, .youtube{
-	border: solid black;
-	border-width: 3px;
-	width: 100%;
-	background-color: rgb(87, 153, 204);
-}
 
-.center{
-    width:400px;
-    margin:0 auto;
-    text-align:left;
-}
-.popup {
-	background: white;
-	display: none;
-	height: 100px;
-	width: 100px;
-}
-.youtube > h2:hover + .popup {
-	display: block;
-}
+
+/*justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content*/
