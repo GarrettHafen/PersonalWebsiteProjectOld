@@ -51,19 +51,16 @@ body{
 	margin:0;
 }
 .carousel{
-	justify-content: center;
-	align-items: center;
-}
-.specialVideos{
-	justify-content: center;
-	align-items: center;
-}
-.col-10{
 	border: 1px solid black;
 	height: 500px;
-	margin:0 auto;
+	margin: 0 auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+.specialVideos{
+}
+.col-10{
+
 }
 .vid{
 	border: 1px solid black;
