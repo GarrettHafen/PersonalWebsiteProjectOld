@@ -78,6 +78,7 @@ body{
 .testImage{
 	height: 100%;
 	width:100%;
+	border: 1px solid #cc0c0c;
 }
 .carouselImage{
 	padding-left: 200px;
@@ -86,6 +87,10 @@ body{
 	padding-top: 10px;
 	height: 100%;
 	width: 100%;
+}
+.homeThumbnail{
+	height: 40px;
+	width: 40px;
 }
 
 
