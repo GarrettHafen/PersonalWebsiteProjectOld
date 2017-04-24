@@ -9,7 +9,7 @@ header{
 }
 
 ul.topTabs {
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 nav {
@@ -36,7 +36,7 @@ nav {
 }
 
 .tab {
-	background-color: #cc5414;
+	background-color: #cc0c0c;
 }
 
 nav a:hover {
@@ -46,25 +46,26 @@ nav a:hover {
 
 body{
 	text-align: center;
-	background-color: white;
+	background-color: black;
 	box-sizing: border-box;
 	margin:0;
 }
 .carousel{
-	border: 1px solid black;
 	height: 500px;
 	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-.specialVideos{
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 .col-10{
-
+	border:2px solid #cc0c0c;
+	height: 500px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: black;
 }
 .vid{
-	border: 1px solid black;
-	height: 170px;
+	height: 217px;
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
@@ -73,6 +74,18 @@ body{
 	min-height: 1px;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+.testImage{
+	height: 100%;
+	width:100%;
+}
+.carouselImage{
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height: 100%;
+	width: 100%;
 }
 
 

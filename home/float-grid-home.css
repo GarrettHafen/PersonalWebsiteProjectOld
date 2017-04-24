@@ -2,15 +2,8 @@
   box-sizing: border-box;
 }
 .row {
-	max-width: 1000px;
-	/*padding-left: 20px;
-	padding-right: 20px;*/
-	margin: 0 auto;
-/*    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;*/
-    margin-right: -15px;
-    margin-left: -15px;
+	max-width: 83%;
+	margin: auto;
 }
 .row::before,
 .row::after {
