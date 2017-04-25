@@ -40,6 +40,14 @@ nav {
 	background-color: #cc0c0c;
 }
 
+.thumbnailButton{
+	float: left;
+	position: relative;
+	margin: 5px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
 nav a:hover {
 	border-color: #999; /*needs new color*/
 	color: #777;
@@ -90,9 +98,10 @@ body{
 	width: 100%;
 }
 .homeThumbnail{
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 60px;
 	border-radius: 50px;
+	border: 2px solid #cc0c0c;
 }
 
 
