@@ -2,12 +2,6 @@ header{
 	margin: 0;
 }
 
-.homeButton{
-	height: 60px;
-	width: 60px;
-	border-radius:50%;
-}
-
 ul.topTabs {
 	padding-top: 10px;
 }
@@ -45,7 +39,6 @@ nav {
 	position: relative;
 	margin: 5px;
 	padding-left: 15px;
-	padding-top: 5px;
 	padding-right: 5px;
 }
 nav a:hover {
@@ -98,8 +91,8 @@ body{
 	width: 100%;
 }
 .homeThumbnail{
-	height: 60px;
-	width: 60px;
+	height: 70px;
+	width: 70px;
 	border-radius: 50px;
 	border: 2px solid #cc0c0c;
 }
