@@ -33,6 +33,7 @@ nav {
 	text-decoration: none;
 	border: 2px solid black;
 	color: black;
+	border-radius: 50px;
 }
 
 .tab {
@@ -91,6 +92,7 @@ body{
 .homeThumbnail{
 	height: 40px;
 	width: 40px;
+	border-radius: 50px;
 }
 
 
