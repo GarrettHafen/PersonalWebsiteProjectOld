@@ -7,7 +7,7 @@ ul.topTabs {
 }
 
 nav {
-  height: 80px;
+  height: 65px;
   background-color: grey;
   position: relative;
   width: 100%;
@@ -22,8 +22,8 @@ nav {
 	display: inline-block;
 	padding: 8px 12px;
 	margin: 0 auto;
-	font-size: 34px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 500;
 	text-decoration: none;
 	border: 2px solid black;
 	color: black;
@@ -37,9 +37,15 @@ nav {
 .thumbnailButton{
 	float: left;
 	position: relative;
-	margin: 5px;
-	padding-left: 15px;
+	margin-top: 2px;
+	padding-left: 30px;
 	padding-right: 5px;
+}
+.homeThumbnail{
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	border: 2px solid #cc0c0c;
 }
 nav a:hover {
 	border-color: #999; /*needs new color*/
@@ -90,12 +96,7 @@ body{
 	height: 100%;
 	width: 100%;
 }
-.homeThumbnail{
-	height: 70px;
-	width: 70px;
-	border-radius: 50px;
-	border: 2px solid #cc0c0c;
-}
+
 
 
 /*justify-content
