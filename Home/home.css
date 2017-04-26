@@ -16,6 +16,7 @@ nav {
   vertical-align: middle;
   margin: 0 auto;
   padding-bottom: 5px;
+  border-bottom: 1px solid #cc0c0c;
 }
 
 .topTabs a {
