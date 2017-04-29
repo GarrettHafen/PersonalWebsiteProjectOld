@@ -21,21 +21,36 @@
 		</nav>
 	</header>
 <body>
+	<div class="bigContainer">
+		<div class="container">
+					<h1>Wanna get a hold of me?</h1>
+					<div class="instructions">
+						<p>Thanks for vising the Contact Me page.</p>
+						<p>This is the place where you will be able to send me an email. Fill out the form below with as much information you'd like.</p> <p>Please mark the "Response Requested" section if you'd like some kind of response....obviously. </p>
+					</div>
 
-	<div class="container">
-		<p>this is where contact info will go</p>
-		<p>i would like the edges to be faded instead of border lines</p>
-			<div class="form">
-				<label for="first-name">First name:</label>
-				<input class="input" placeholder='Inigo' type="text" name='first-name' id='first-name' />
+				<div class="form">
+					<div class="fields">
+						<label for="first-name" class="label">First name:</label>
+						<input class="input" placeholder='Inigo' type="text" name='first-name' id='first-name' />
 
-     			<label for="last-name">Last name:</label>
-      			<input class="input" type="text" name='last-name' id='last-name' placeholder='Monoya' />
+		     			<label for="last-name" class="label">Last name:</label>
+		      			<input class="input" type="text" name='last-name' id='last-name' placeholder='Montoya' />
 
-      			<label for="email">Email Address:</label>
-      			<input class="input" type="email" name='email' id='email' placeholder="youkilledmyFather@prepareToDie.com" />
-			</div>
+		      			<label for="email" class="label">Email Address:</label>
+		      			<input class="input" type="email" name='email' id='email' placeholder="youkilledmyFather@prepareToDie.com" />
+		      			<label for="notes" class="label">Anything Else?</label>
+		      			<input class="input" type="text" name="text" placeholder="this needs to expand the whole page">
+					</div>
+					<div class="radioButtons">
+						<form action ="">
+							<input class="radioButton" type="radio" name="Reponse" value="responseRequested"> Response Requested <br>	
+							<input class="radioButton" type="radio" name="Reponse" value="noResponse"> No Response Needed <br>
+						</form>
+						<button class="submitButton" type="submit">Submit</button>
+					</div>
+				</div>
+		</div>
 	</div>
-
 </body>
 </html>
