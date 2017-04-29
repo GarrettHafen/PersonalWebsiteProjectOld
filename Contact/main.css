@@ -7,7 +7,7 @@ body{
 	background-color: #1b3f4d;
 }
 h1{
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 	font-size: 30px;
 }
 .instructions{
@@ -16,6 +16,10 @@ h1{
 	margin-left: auto;
 	width: 85%;
 	font-size: 24px;
+}
+p{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .bigContainer{
 	border: 150px;
@@ -33,6 +37,9 @@ h1{
 	border: 100px;
 	border-style: groove;
 	
+}
+.contactForm{
+	margin-top: 50px;
 }
 .label{
 	float: left;
@@ -66,4 +73,5 @@ h1{
 }
 .submitButton{
 	margin: 15px;
+	border-radius: 15%;
 }
