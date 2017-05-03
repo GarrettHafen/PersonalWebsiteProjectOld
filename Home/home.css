@@ -6,7 +6,7 @@ ul.topTabs {
 	padding-top: 10px;
 }
 
-nav {
+.topBar {
   height: 65px;
   background-color: grey;
   position: relative;
@@ -96,6 +96,13 @@ body{
 	padding-top: 10px;
 	height: 100%;
 	width: 100%;
+}
+.footer{
+	height: 40px;
+	background-color: grey;
+	border-top-width: 3px;
+	border-color: white;
+	margin-top: 80px;
 }
 
 
