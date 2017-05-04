@@ -52,7 +52,23 @@ nav a:hover {
 	border-color: #999; /*needs new color*/
 	color: #777;
 }
+.statusBox{
+    width: 100;
+    color: red;
+    float: right;
+    padding-right: 5%;
+    border: 5px solid black;
+    padding-left: 5px;
+    padding-top: 5px;
+}
 
+.statusItem{
+	margin:0;
+	font-size: 15px;
+}
+.Big{
+	font-size: 20px;
+}
 body{
 	text-align: center;
 	background-color: black;
