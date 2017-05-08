@@ -3,11 +3,12 @@ header{
 }
 
 ul.topTabs {
-	padding-top: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 
 .topBar {
-  height: 65px;
+  height: 75px;
   background-color: grey;
   position: relative;
   width: 100%;
@@ -41,6 +42,8 @@ ul.topTabs {
 	margin-top: 2px;
 	padding-left: 30px;
 	padding-right: 5px;
+	padding-bottom: 7px;
+	padding-top: 7px;
 }
 .homeThumbnail{
 	height: 60px;
@@ -53,13 +56,14 @@ nav a:hover {
 	color: #777;
 }
 .statusBox{
-    width: 100;
-    color: red;
+    width: 9%;
+    color: blue;
     float: right;
     padding-right: 5%;
     border: 5px solid black;
     padding-left: 5px;
     padding-top: 5px;
+    height:74px;
 }
 
 .statusItem{
@@ -95,7 +99,11 @@ body{
 	white-space: nowrap;
 	margin:	50px auto;
 }
-
+.slide-nav{
+	position:absolute;
+	bottom: 28px;
+	left:30px;
+}
 .vid{
 	height: 217px;
 	margin-bottom: 15px;
