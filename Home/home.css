@@ -89,6 +89,13 @@ body{
 	padding-right: 15px;
 	background-color: black;
 }
+.content{
+	max-width: 100vw;
+	overflow: auto;
+	white-space: nowrap;
+	margin:	50px auto;
+}
+
 .vid{
 	height: 217px;
 	margin-bottom: 15px;

@@ -75,3 +75,10 @@ p{
 	margin: 15px;
 	border-radius: 15%;
 }
+.footer{
+	height: 40px;
+	background-color: grey;
+	border-top-width: 3px;
+	border-color: white;
+	margin-top: 80px;
+}
