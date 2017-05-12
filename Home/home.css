@@ -125,6 +125,41 @@ body{
 	border-color: white;
 	margin-top: 80px;
 }
+.items{
+	border: 1px solid red;
+	width: 500px;
+	height: 400px;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+.items li{
+	list-style: none;
+}
+.orange{
+	background-color: orange;
+
+}
+.yellow{
+	background-color: yellow;
+}
+.pink{
+	background-color: pink;
+}
+.green{
+	background-color: green;
+}
+.active{
+	display:flex;
+}
+.active li{
+	position: absolute;
+	top:500px;
+}
+.active li.current{
+	top:0px;
+}
 
 @media screen and (min-width: 751px){
 	.row{
@@ -138,9 +173,18 @@ body{
 	}
 }
 
-@media screen and (max-width: 750px){
+@media (max-width: 750px){
 body{
 	flex-direction: column;
+}
+.topBar{/*needs to go into a button/dropdown look at LCRF*/
+	display:flex;
+	flex-direction:column;
+	height: 200px;
+}
+.statusBox{
+	width: 100%;
+	height: 74px;
 }
 }
 
@@ -152,3 +196,5 @@ align-self
 flex-wrap
 flex-flow
 align-content*/
+
+
