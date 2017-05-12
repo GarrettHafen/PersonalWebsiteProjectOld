@@ -1,7 +1,7 @@
 carousel = (function(){
   var box = document.querySelector('.carousel');
-  var next = box.querySelector('.next');
-  var prev = box.querySelector('.prev');
+  var next = box.querySelector('.right');
+  var prev = box.querySelector('.left');
   var items = box.querySelectorAll('.content li');
   var counter = 0;
   var amount = items.length;
