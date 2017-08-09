@@ -1,3 +1,4 @@
+/* Home Page */
 carousel = (function(){
   var box = document.querySelector('.carousel');
   var next = box.querySelector('.right');
