@@ -83,6 +83,7 @@ body{
 	background-color: black;
 	box-sizing: border-box;
 	margin:0;
+	height: 100%;
 }
 .carousel{
 	height: 500px;
@@ -121,6 +122,10 @@ body{
 	height: 100%;
 	width:100%;
 	border: 1px solid #cc0c0c;
+}
+.everythingButHeadandFoot{
+	min-height: 100%;
+	margin-bottom: -40px;
 }
 
 .footer{

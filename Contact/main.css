@@ -1,11 +1,9 @@
 /* Contact Page */
-/**{
-	box-sizing: border-box;
-}*/
 
-body{
-/*	background-color: #eaecef;*/
+html, body{
 	background-color: #1b3f4d;
+	height: 100%;
+	margin: 0;
 }
 h1{
 	margin-bottom: 35px;
@@ -21,6 +19,10 @@ h1{
 p{
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+.everythingbutheaderandfooter{
+	min-height: 100%;
+	margin-bottom: -40px;	
 }
 .bigContainer{
 	border: 100px;
@@ -60,7 +62,6 @@ p{
 	display: block;
 	resize: none
 	vertical-align: middle;
-	/*background-color: #64879a;*/
 	background-color: white;
 	border-color: black;
 
@@ -87,8 +88,7 @@ p{
 }
 .footer{
 	height: 40px;
-	background-color: green;
+	background-color: grey;
 	border-top-width: 3px;
 	border-color: white;
-	margin-top: 0px;
 }

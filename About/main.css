@@ -2,10 +2,13 @@
 /**{
 	box-sizing: border-box;
 }*/
+html, body{
+	height: 100%;
+	margin: 0;	
+}
 header{
 	margin: 0;
 }
-
 ul.topTabs {
 	padding-top: 18px;
 	padding-bottom: 16px;
@@ -86,10 +89,13 @@ h2{
 	background-color: white;
 	border: 5px solid #cc0c0c;
 }
+.everythingbutheaderandfooter{
+	min-height: 100%;
+	margin-bottom: -40px;	
+}
 .footer{
 	height: 40px;
 	background-color: grey;
 	border-top-width: 3px;
 	border-color: white;
-	margin-top: 80px;
 }
