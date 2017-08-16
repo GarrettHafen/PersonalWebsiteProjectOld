@@ -34,7 +34,7 @@ carousel = (function(){
 })();
 
 //set youtube thumbnails and links
-var test = [1,2,3,4,5];
+var test = [1,2,3,4,5,6];
 var innerDiv = "";
 var channelID = "UCLbmYqqTpfGvCC6qITTnvEw";
 
@@ -49,7 +49,7 @@ $.getJSON('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtub
     ` 
       <a href="${videoSource}" target = "_blank">
         <div class="video-box">
-          <img class="video-thumbnail" src="${thumbnailSource}">
+          <img class="video-thumbnail col-4 vid testImage" src="${thumbnailSource}">
         </div>
       </a>
     `
