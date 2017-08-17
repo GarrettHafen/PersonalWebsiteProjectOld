@@ -233,14 +233,49 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 
 the main feature will be the carousel which will always be 75% of the total screen*/
 
-@media screen and (max-width: 1600px){
+/*Small only */
+@media screen and (max-width: 39.9375em) {
+	body{
+		flex-direction: column;
+	}
+	.topBar{/*needs to go into a button/dropdown look at LCRF when on mobile*/
+		display:flex;
+		flex-direction:column;
+		height: 200px;
+	}
+	.statusBox{
+		width: 100%;
+		height: 74px;
+	}
 	.col-10{
-		min-width: 1120px;
+		width: 85%;
 	}
 }
 
-@media screen and (min-width: 1920px){
-	.row{
+/*Medium and up 1080 */
+@media screen and (min-width: 40em) {
+	.row {}
+	.col-4 {}
+	.col-10 {}
+}
+
+/*Medium only 1440*/
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.row {}
+	.col-4 {}
+	.col-10 {}
+}
+
+/*Large and up */
+@media screen and (min-width: 64em) {
+	.row {}
+	.col-4 {}
+	.col-10 {}
+}
+
+/*Large only 1920 */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+.row{
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -255,23 +290,8 @@ the main feature will be the carousel which will always be 75% of the total scre
 	}
 }
 
-@media (max-width: 750px){
-body{
-	flex-direction: column;
-}
-.topBar{/*needs to go into a button/dropdown look at LCRF when on mobile*/
-	display:flex;
-	flex-direction:column;
-	height: 200px;
-}
-.statusBox{
-	width: 100%;
-	height: 74px;
-}
-.col-10{
-	width: 85%;
-}
-}
+
+
 
 /*justify-content
 align-items
