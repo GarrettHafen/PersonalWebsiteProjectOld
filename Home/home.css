@@ -94,7 +94,7 @@ body{
 	align-items: center;
 }
 .col-10{
-	/*border:2px solid #cc0c0c;*/
+	border:2px solid #cc0c0c;
 	height: 500px;
 	margin: auto;
 	padding-left: 15px;
@@ -149,16 +149,16 @@ body{
 	list-style: none;
 }
 .orange{
-	background-color: orange;
+	background-color: grey;
 }
 .yellow{
-	background-color: yellow;
+	background-color: white;
 }
 .pink{
-	background-color: pink;
+	background-color: teal;
 }
 .green{
-	background-color: green;
+	background-color: purple;
 }
 .active{ /*why is this needed. see jsfiddle its attaching to the big parent.*/
 	display:flex;
@@ -268,14 +268,24 @@ the main feature will be the carousel which will always be 75% of the total scre
 
 /*Large and up */
 @media screen and (min-width: 64em) {
-	.row {}
-	.col-4 {}
-	.col-10 {}
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.col-4{
+		width:600px;
+		height:338px;
+	}
+	.col-10{
+		min-width: 1344px;
+	}
 }
 
 /*Large only 1920 */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
-.row{
+	.row{
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
