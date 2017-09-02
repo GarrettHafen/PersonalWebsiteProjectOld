@@ -2,7 +2,6 @@
 header{
 	margin: 0;
 }
-
 ul.topTabs {
 	padding-top: 18px;
 	padding-bottom: 16px;
@@ -86,7 +85,6 @@ body{
 	height: 100%;
 }
 .carousel{
-	height: 500px;
 	margin: 0 auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -95,7 +93,6 @@ body{
 }
 .col-10{
 	border:2px solid #cc0c0c;
-	height: 500px;
 	margin: auto;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -125,6 +122,10 @@ body{
 	width:100%;
 	border: 1px solid #cc0c0c;
 }
+.homeImage{
+	height: 100%;
+	width: 100%;
+}
 .everythingButHeadandFoot{
 	min-height: 100%;
 	margin-bottom: -40px;
@@ -149,23 +150,23 @@ body{
 	list-style: none;
 }
 .orange{
-	background-color: grey;
+	background-color: black;
 }
 .yellow{
-	background-color: white;
+	background-color: black;
 }
 .pink{
-	background-color: teal;
+	background-color: black;
 }
 .green{
-	background-color: purple;
+	background-color: black;
 }
 .active{ /*why is this needed. see jsfiddle its attaching to the big parent.*/
 	display:flex;
 }
 .active li{
 	position: absolute;
-	top:500px;
+	top:700px;
 }
 .active li.current{
 	top:0px;
@@ -279,7 +280,8 @@ the main feature will be the carousel which will always be 75% of the total scre
 		height:338px;
 	}
 	.col-10{
-		min-width: 1344px;
+		min-width: 1066px;
+		height: 600px;
 	}
 }
 
@@ -296,7 +298,8 @@ the main feature will be the carousel which will always be 75% of the total scre
 		height:338px;
 	}
 	.col-10{
-		min-width: 1344px;
+		min-width: 1066px;
+		height: 600px;
 	}
 }
 
